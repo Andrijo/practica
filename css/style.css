@@ -1,0 +1,32 @@
+html,
+body {
+    height: 80%;
+}
+
+body {
+    display: flex;
+    align-items: top;
+    text-align: justify;
+}
+
+th,
+td {
+    text-align: center;
+}
+
+.pagination {
+    display: flexbox;
+    justify-content: flex-end;
+}
+
+.page-link {
+    color: black;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    color:#fff;
+    text-decoration: none;
+}

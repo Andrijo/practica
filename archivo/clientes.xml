@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.8.5
+- https://www.phpmyadmin.net
+-
+- Servidor: 127.0.0.1
+- Tiempo de generación: 15-01-2022 a las 05:41:39
+- Versión del servidor: 10.1.38-MariaDB
+- Versión de PHP: 7.3.2
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="proyecto" collation="utf8mb4_spanish_ci" charset="utf8mb4">
+            <pma:table name="clientes">
+                CREATE TABLE `clientes` (
+                  `id` int(10) NOT NULL AUTO_INCREMENT,
+                  `clave` varchar(7) NOT NULL,
+                  `nombre` tinytext NOT NULL,
+                  `apellido` tinytext NOT NULL,
+                  `correo` varchar(50) NOT NULL,
+                  `telefono` varchar(10) NOT NULL,
+                  `sexo` char(1) NOT NULL,
+                  UNIQUE KEY `ID` (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Base de datos: 'proyecto'
+    -->
+    <database name="proyecto">
+        <!-- Tabla clientes -->
+        <table name="clientes">
+            <column name="id">1</column>
+            <column name="clave">C3245GH</column>
+            <column name="nombre">Roberto</column>
+            <column name="apellido">Escobedo</column>
+            <column name="correo">robertesco@yahoodot.com</column>
+            <column name="telefono">1234567890</column>
+            <column name="sexo">H</column>
+        </table>
+        <table name="clientes">
+            <column name="id">2</column>
+            <column name="clave">ART6254</column>
+            <column name="nombre">Erick</column>
+            <column name="apellido">Oropeza</column>
+            <column name="correo">orescopeza@cambria.com</column>
+            <column name="telefono">7894561230</column>
+            <column name="sexo">H</column>
+        </table>
+        <table name="clientes">
+            <column name="id">3</column>
+            <column name="clave">BIB4NJA</column>
+            <column name="nombre">Bibiana</column>
+            <column name="apellido">Espinoza</column>
+            <column name="correo">Bibanespinooooza@hotcheetos.com</column>
+            <column name="telefono">5554858458</column>
+            <column name="sexo">M</column>
+        </table>
+        <table name="clientes">
+            <column name="id">4</column>
+            <column name="clave">C321343</column>
+            <column name="nombre">Kevin</column>
+            <column name="apellido">Ramirez</column>
+            <column name="correo">KevinRamirez@doritos.com</column>
+            <column name="telefono">6174524585</column>
+            <column name="sexo">H</column>
+        </table>
+        <table name="clientes">
+            <column name="id">5</column>
+            <column name="clave">C3PO614</column>
+            <column name="nombre">Anakin</column>
+            <column name="apellido">Skywalker</column>
+            <column name="correo">Anakinini@rufles.com</column>
+            <column name="telefono">2647848587</column>
+            <column name="sexo">H</column>
+        </table>
+        <table name="clientes">
+            <column name="id">6</column>
+            <column name="clave">BB8ANA4</column>
+            <column name="nombre">Alan</column>
+            <column name="apellido">Valenzuela</column>
+            <column name="correo">AlanVlza@jkai.com</column>
+            <column name="telefono">6777877878</column>
+            <column name="sexo">H</column>
+        </table>
+        <table name="clientes">
+            <column name="id">7</column>
+            <column name="clave">KLE4012</column>
+            <column name="nombre">Eros</column>
+            <column name="apellido">Esparza</column>
+            <column name="correo">Erosesperza@herman.com</column>
+            <column name="telefono">6144444444</column>
+            <column name="sexo">H</column>
+        </table>
+        <table name="clientes">
+            <column name="id">8</column>
+            <column name="clave">LKE4564</column>
+            <column name="nombre">Vianey</column>
+            <column name="apellido">Yanez</column>
+            <column name="correo">Yanezzz@hoymail.com</column>
+            <column name="telefono">6778484848</column>
+            <column name="sexo">M</column>
+        </table>
+        <table name="clientes">
+            <column name="id">9</column>
+            <column name="clave">DFF4515</column>
+            <column name="nombre">Aaron</column>
+            <column name="apellido">Padilla</column>
+            <column name="correo">Padillando@plad.com</column>
+            <column name="telefono">6474585455</column>
+            <column name="sexo">H</column>
+        </table>
+        <table name="clientes">
+            <column name="id">10</column>
+            <column name="clave">RET4587</column>
+            <column name="nombre">Hector</column>
+            <column name="apellido">Zuniga</column>
+            <column name="correo">Zueniga@zooa.com</column>
+            <column name="telefono">7894548585</column>
+            <column name="sexo">H</column>
+        </table>
+        <table name="clientes">
+            <column name="id">11</column>
+            <column name="clave">JHD6454</column>
+            <column name="nombre">Veronica</column>
+            <column name="apellido">Chavez</column>
+            <column name="correo">Chavezin@verpc.mx</column>
+            <column name="telefono">4878988778</column>
+            <column name="sexo">M</column>
+        </table>
+    </database>
+</pma_xml_export>
